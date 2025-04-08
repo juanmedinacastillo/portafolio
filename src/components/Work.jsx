@@ -12,7 +12,7 @@ const Work = () => {
       <h4 className="text-center mb-2 text-lg font-Ovo">Mi portafolio</h4>
       <h2 className="text-center text-5xl font-Ovo">Mis ultimos Proyectos</h2>
 
-      <div className={`grid ${showMore ? 'grid-cols-3' : 'grid-cols-3'} gap-5 my-10 dark:text-black`}>
+      <div className={`grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-5 my-10 dark:text-black`}>
         {/* Primeros 3 proyectos */}
         <div
           className="aspect-square bg-[url('./assets/work-01.jpg')] bg-no-repeat md:hover:bg-[auto_350px] bg-cover bg-center rounded-lg relative cursor-pointer transition-all transition-all duration-600 ease-in-out"
